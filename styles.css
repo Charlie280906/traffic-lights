@@ -1,0 +1,36 @@
+body {
+    height: 100vh;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.traffic-lights {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.unit-traffic-lights {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.lights-logo {
+    width: 200px;
+}
+
+.symbol-logo {
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 20px;
+}

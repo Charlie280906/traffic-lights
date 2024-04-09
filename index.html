@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Traffic Lights with JavaScript</title>
+</head>
+<body>
+    <div class="content-container">
+        <div class="traffic-lights">
+            <div class="unit-traffic-lights">
+                <img src="images/car.png" class="symbol-logo">
+                <img src="images/greenLight.png" id="car-light-image" class="lights-logo">
+            </div>
+            <div class="unit-traffic-lights">
+                <img src="images/person.png" class="symbol-logo">
+                <img src="images/dontWalk.png" id="person-light-image" class="lights-logo">
+            </div>
+        </div>
+        <div class="action-button">
+            <button onclick="changeLights()" id="want-to-walk-button">Ready to cross!</button>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
